@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    
+    public string LobbyPassword;
+    public int MissionInt;
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+   public string GetLobbyPassword()
     {
-        
+        return LobbyPassword;
     }
+
 }

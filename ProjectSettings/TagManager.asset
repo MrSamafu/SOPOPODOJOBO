@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Equipe1
+  - Equipe 2
+  - Cube1
+  - Cube2
+  - Cube3
+  - Cube4
+  - Cube5
+  - Cube6
+  - Cube20
+  - Cube21
+  - Cube22
+  - Cube23
+  - Cube24
+  - Cube25
+  - Cube26
+  - Cube27
+  - Chest
   layers:
   - Default
   - TransparentFX

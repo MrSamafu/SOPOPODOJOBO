@@ -20,13 +20,13 @@ public class ScriptCamera : MonoBehaviour
 
     void FixedUpdate()
     {
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensivity;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensivity;
+        //float mouseX = Input.GetAxis("Mouse X") * mouseSensivity;
+        //float mouseY = Input.GetAxis("Mouse Y") * mouseSensivity;
 
-        xrotation -= mouseY;
-        xrotation = Mathf.Clamp(xrotation, -90, 90);
-        transform.localRotation = Quaternion.Euler(xrotation, 0, 0);
-        playerBody.Rotate(Vector3.up * mouseX);
+        //xrotation -= mouseY;
+        //xrotation = Mathf.Clamp(xrotation, -90, 90);
+        //transform.localRotation = Quaternion.Euler(xrotation, 0, 0);
+        //playerBody.Rotate(Vector3.up * mouseX);
     }
 
 }
