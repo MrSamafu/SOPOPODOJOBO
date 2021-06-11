@@ -21,7 +21,7 @@ public class MenuMission2 : MonoBehaviour
     {
 
         GameObject.Find("GameManager").GetComponent<GameManager>().MissionInt +=1 ;
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main 2");
        
     }
 }
